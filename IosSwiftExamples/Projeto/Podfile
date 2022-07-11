@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+workspace ‘Projeto’
+
+target 'Projeto’ do
+
+  use_frameworks!
+
+  source 'https://github.com/CocoaPods/Specs.git'
+  pod 'GoogleMaps'
+
+  target 'ProjetoTests' do
+    inherit! :search_paths
+  end
+
+  target 'ProjetoUITests' do
+    inherit! :search_paths
+  end
+
+end

@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+workspace ‘GoogleMapsExemplo’
+source 'https://github.com/CocoaPods/Specs.git'
+target 'GoogleMapsExemplo' do
+  use_frameworks!
+  pod 'GoogleMaps', '~> 1.13'
+end

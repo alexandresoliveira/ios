@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+def libs
+  pod 'GoogleMaps'
+end
+
+target 'TabsMaterialDesign' do
+  use_frameworks!
+  libs
+end
